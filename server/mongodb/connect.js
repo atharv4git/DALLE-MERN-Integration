@@ -1,12 +1,12 @@
-import mongoose from "mongoose";
+// import mongoose from "mongoose";
 
-const connectDB = (url) => {
-    // helpfull for search functionality
-    mongoose.set('strictQuery', true);
+// const connectDB = (url) => {
+//     // helpfull for search functionality
+//     mongoose.set('strictQuery', true);
 
-    mongoose.connect(url)
-    .then(() => console.log("MongoDB Connected!"))
-    .catch((err) => console.log(err))
-}
+//     mongoose.connect(url)
+//     .then(() => console.log("MongoDB Connected!"))
+//     .catch((err) => console.log(err))
+// }
 
-export default connectDB;
+// export default connectDB;
